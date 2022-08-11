@@ -3,3 +3,152 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+.header h1{
+    font-size: 5rem;
+}
+
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+
+    font-size: 5rem;
+}
+/*Row 1*/
+.row-1{
+    flex: auto;
+    border-bottom: 5px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+
+    max-height: 200px;
+}
+
+.space-1{
+    flex: auto;
+    border-right: 10px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-2{
+    flex: auto;
+    border-right: 10px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-3{
+    flex: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Row 2*/
+.row-2{
+    flex: auto;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+
+    max-height: 200px;
+}
+
+.space-4{
+    flex: auto;
+    border-right: 10px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-5{
+    flex: auto;
+    border-right: 10px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-6{
+    flex: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Row 3*/
+.row-3{
+    flex: auto;
+    border-top: 5px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+
+    max-height: 200px;
+}
+
+.space-7{
+    flex: auto;
+    border-right: 10px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-8{
+    flex: auto;
+    border-right: 10px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-9{
+    flex: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
