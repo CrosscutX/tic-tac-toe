@@ -161,3 +161,16 @@ main{
     align-items: center;
     max-width: 260px;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    font-size: 2rem;
+    background-color: rgb(70, 174, 70);
+    height: 100px;
+    width: 200px;
+}

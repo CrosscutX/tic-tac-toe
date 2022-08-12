@@ -53,6 +53,10 @@ function updateBoard(space,num){
         gameFlow.gameBoardArr[num] = 'O'
     }
 }
+
+function checkWin(){
+    
+}
     //event listeners for clicking on the board
 const displayClick = (() =>{
     space1.addEventListener('click', function(){
@@ -63,9 +67,7 @@ const displayClick = (() =>{
             changeTurn();
         }else{
             return;
-        }
-        
-        
+        }   
     })
     
     space2.addEventListener('click', function(){
@@ -158,10 +160,12 @@ const displayClick = (() =>{
     })
   
 })();
+//reload page to restart program
+const restartBtn = document.querySelector('button');
 
-function checkWin(){
-    
-}
+restartBtn.addEventListener('click', function(){
+    location.reload();
+})
 
 
 
