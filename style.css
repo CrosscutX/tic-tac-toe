@@ -74,7 +74,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 270px;
+    max-width: 260px;
 }
 
 /*Row 2*/
@@ -117,7 +117,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 270px;
+    max-width: 260px;
 }
 
 /*Row 3*/
@@ -159,5 +159,5 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 270px;
+    max-width: 260px;
 }
